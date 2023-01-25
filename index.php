@@ -58,6 +58,9 @@
     <tr>
       <td colspan="4"><a href="login.php">ENTRAR A REGISTRAR</a></td>
     </tr>
+    <tr>
+      <td colspan="4"><a href="password.php">VER FORMAS DE ENCRIPTACIÓN</a></td>
+    </tr>
   </tbody>
 </table>
 
