@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registrar usuario</title>
+	<title>Login</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
-    <form method="post">
-    	<h1>¡REGISTRAR DATOS!</h1>
+    <form action="comprueba.php" method="post">
+    	<h1>VERIFICA DATOS</h1>
     	<input type="email" name="email" placeholder="Correo electrónico">
     	<input type="password" name="password" placeholder="Contraseña">
     	<input type="submit" name="register">
     </form>
-	<a href="verificar.php">Ingresa datos</a>
-        <?php 
-        include("registrar.php");
-        ?>
 </body>
 </html>
